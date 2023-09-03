@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:wght@600&display=swap');
+
+.bar{ 
+    color : #FFFFDD;
+    font-size: 3rem ; 
+    font-family: 'Crimson Text', serif;
+    background-color : #D2DE32;
+}
+.title{ 
+
+    margin-left: 10% ;
+}

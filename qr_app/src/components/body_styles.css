@@ -1,0 +1,81 @@
+/* YourComponent.css */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  .qr_style{
+    max-width: 95%;
+  }
+  .content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .name_text{
+    font-size: 1.75rem;
+  }
+  .text {
+    flex: 1;
+    padding: 20px;
+    text-align: center; /* Center align text for mobile */
+  }
+  
+  .image {
+    flex: 1;
+    text-align: center;
+    order: 1; /* Change the order to 1 for mobile */
+    margin-top: 20px; /* Add some space between image and text for mobile */
+    
+  }
+  .input_style{ 
+    margin-left: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border: 2px solid gray ;
+    border-radius: 10px;
+  }
+  img {
+    max-width: 100%;
+    border-radius: 20px;
+    height: auto;
+  }
+  
+  /* Media query for screens narrower than a certain width (e.g., 768px) */
+  @media (max-width: 768px) {
+    .content {
+      flex-direction: column; /* Stack elements vertically for mobile */
+      text-align: center; /* Center align the content for mobile */
+    }
+  
+    .text {
+      order: 2; /* Change the order to 2 for mobile */
+    }
+  
+    .image {
+      order: 1; /* Change the order to 1 for mobile */
+      margin-top: 0; /* Remove the margin for mobile */
+    }
+  }
+  /* Style the dropdown select element */
+.dropdown {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    font-size: 16px;
+  }
+  
+  /* Style the individual dropdown options */
+  .dropdown option {
+    background-color: #fff; /* Background color of each option */
+    color: #333; /* Text color of each option */
+    padding: 10px;
+  }
+  
+  /* Hover effect for options */
+  .dropdown option:hover {
+    background-color: #f0f0f0; /* Background color on hover */
+  }
+  
